@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/*hero content*/
 #cover{
     height: 620px;
     background-image: url('../assets/Hero-bg.png');
@@ -26,17 +27,7 @@
     text-align: center;
     margin: 40px 221px;
 }
-.paragraph{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: center;
-    opacity: 0.7;
-    margin: 24px 294px 34px;
-}
+
 .btn-container{
     text-align: center;
 }
@@ -54,4 +45,82 @@
     border: none;
     background-position: center;
 }
-    
+/*why web development*/
+.heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.secondary-bag{
+    margin: 64px auto;
+    padding: 70px 87px;
+    max-width: 946px;
+    border-radius: 10px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.paragraph-one{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 47px 34px;
+}
+.trio2{
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 25px auto;
+    padding: 40px;
+}
+
+/*shared*/
+.paragraph{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    margin-right: 150px;
+    margin-left: 28px;
+}
+.heading-one{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 150px;
+    margin-left: 28px;
+    margin-top: 25px;
+}
+.trio{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 25px auto;
+    padding: 40px;
+}
+.btn2{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px 15px;
+    margin-left: 28px;
+
+}
+.banner{
+    display: flex;
+}
