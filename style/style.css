@@ -113,6 +113,73 @@
 .position{
     display: flex;
 }
+.current{
+    margin: 90px;
+}
+/* final */
+#cover2{
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    height: 235px;
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 64px 48px 64px 48px;
+    margin: 42px 100px 180px;
+}
+#support-heading{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 16px 0px;
+}
+#support-p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+#feedback{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 600px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#feedback-btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 18px;
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
 /*shared*/
 .learn-more{
     color: rgb(13, 19, 33);
